@@ -1,0 +1,91 @@
+<!-- TITLE: CLIMBING
+
+    Section 1: What is climbing? Different types 
+    Section 3: why climbing is good for you (bullet point list)
+    Section: add another section here
+    
+    Section 2: Famous climbers (links) - can add info if you hover on their picture (section is bottom rectangle)
+
+    - section each into blocks, 1 climbing image at the back of the page
+    - once ive finished responsive webpage section add in 3 titles at top and then if you click on any the page scrolls to them
+    -have current date and time also at top
+
+    Footer section: contact tess for more details about the best climbing spots in manchester
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouldering</title>
+    <link href="./hobbypagestyles.css" rel="stylesheet"/>
+  </head>
+
+<body>
+    <main>
+            <h1>Bouldering</h1>
+            <h6 id="current-time"></h6>
+            <section>
+            <div class="blockleft">
+                <h2>What is bouldering?</h2>
+                <p>Bouldering is a form of free climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses. While bouldering can be done without any equipment, most climbers use climbing shoes to help secure footholds, chalk to keep their hands dry and to provide a firmer grip, and bouldering mats to prevent injuries from falls. Unlike free solo climbing, which is also performed without ropes, bouldering problems (the sequence of moves that a climber performs to complete the climb) are usually less than six metres (20 ft) tall.</p>
+                <h3>The above information is from <a href=""> wikipedia</a>.</h3>
+            </div>
+            <div class="blockmiddle">
+                <h2>Why is climbing good for you? </h2>
+                <h4>Some physical health benefits are</h4>
+                <ul>
+                    <li>Strong upper body muscles</li>
+                    <li>Leg strengthening</li>
+                    <li>Increased grip strength</li>
+                    <li>Boosts heart rate and develops stamina</li>
+                </ul>
+                <h4>Some mental health benefits are</h4>
+                <ul>
+                    <li>Improved conventration and focus</li>
+                    <li>Better problem-solving skills</li>
+                    <li>Boosts in confidence</li>
+                </ul>
+            </div> 
+            <div class="blockright">
+                <h2>This is another section header</h2>
+            </div> <!-- get this upward -->
+            </section>
+            <section>
+            <div class="level2block">
+                <h2> Famous climbers</h2>
+                <p> There are lots of different types of climbing, not only bouldering. Below are some famous climbers with links to find out more.</p>
+                <figure>
+                <h5>A free-soloer</h5>
+                <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+                <figcaption>That Alex guy <em>love</em> lasagna.</figcaption>  
+                </figure>
+                <figure>
+                <h5>A boulderer</h5>
+                <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+                <figcaption>Katie Lamb <em>love</em> lasagna.</figcaption>  
+                </figure>
+                <figure>
+                <h5>A big wall climber/ traditional climber</h5>
+                <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+                <figcaption>Tommy Caldwell <em>love</em> lasagna.</figcaption>  
+                </figure>
+            </section>
+            </div>
+    </main>
+    <footer>
+        <p> Visit my<a href="" target="_blank"> Github </a>for more.</p>
+        <p>Tess Phillips</p>
+    </footer>
+</body>
+<script>
+    let time=document.getElementById("current-time");
+
+    setInterval(()=>{
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+    },1000)
+
+</script>
+</html>
