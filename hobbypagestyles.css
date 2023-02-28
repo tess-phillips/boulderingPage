@@ -52,7 +52,6 @@ sfdsfdsfdsfsdfsfsdf
 
 
 .cards2{
-  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -61,7 +60,6 @@ sfdsfdsfdsfsdfsfsdf
   width: 100%;
   word-wrap: break-word;
   opacity: 80%;
-  border-radius: 2px
 }   
 
 .card2{
