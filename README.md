@@ -10,7 +10,7 @@ Table of Contents
 The page is divided into several sections, including:  
 "What is bouldering?" - an explanation of bouldering and the equipment used.  
 "Why is climbing good for you?" - a bullet point list of physical and mental health benefits of climbing.  
-"Why do I like bouldering?" - a section that explains my favourite things about climbing/bouldeirng.  
+"Why do I love bouldering?" - a section that explains my favourite things about climbing/bouldeirng.  
 "Famous climbers" - a section that includes biographical information and links to documentaries about famous climbers.  
 
 How to use  
