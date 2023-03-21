@@ -3,6 +3,7 @@ Hobby Page - Bouldering
 This site is an informative page about bouldering and other types of climbing.  It contains HTML (for the website), CSS (for the styling of the website) and JavaScript(for the up to date time on the page). 
 
 Planning, Building and Debugging  
+I planned to create my sections in blocks with a colouring climbing image as the background since I had seen a website with this structure and thought it looked nice and unique. I chose blue and yellow as the theme colours of this page.  
 Some challenges faced whilst making this was using and combining all these languages since it was my first time using them. I also struggled with getting the boxes to line up and the pictures being of different sizes also not lining up properly but I found appropriate solutions.
 
 Table of Contents  
