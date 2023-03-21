@@ -4,22 +4,6 @@ html {
     background-attachment: fixed;
     background-size: 100%;
   }
-  /*
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-sfdsfdsfdsfsdfsfsdf
-.blockleft,.blockright,.blockmiddle{
-    background-color: yellow;
-    width: 33%;
-    height: 350px;
-    word-wrap: break-word;
-    display: inline-block; 
-    *display: inline; 
-    zoom: 1; 
-    vertical-align: top;
-    padding: 10px
-}*/
 
 .cards1{
   margin-top: 10px;
@@ -147,16 +131,4 @@ h6{
   font-size: 15px;
 }
 
-/*
-@media (max-width: 768px) {
-  .blockleft, .blockright, .blockmiddle {
-    width: 358px;
-  }
-
-}
-
-@media (max-width: 1199px) and (min-width: 769px) {
-  .blockleft, .blockright, .blockmiddle {
-      width: 358px;
-    }
-}*/
+@media screen and (max-width: 991px) { body { font-size: 12px; } }
