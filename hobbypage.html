@@ -1,20 +1,3 @@
-<!-- TITLE: CLIMBING
-
-    Section 1: What is climbing? Different types 
-    Section 3: why climbing is good for you (bullet point list)
-    Section: add another section here
-    
-    Section 2: Famous climbers (links) - can add info if you hover on their picture (section is bottom rectangle)
-
-    - section each into blocks, 1 climbing image at the back of the page
-    - once ive finished responsive webpage section add in 3 titles at top and then if you click on any the page scrolls to them
-    -have current date and time also at top
-
-    blend the edges of the boxes
-
-    Footer section: contact tess for more details about the best climbing spots in manchester
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -52,8 +35,11 @@
                 </ul>
             </article> 
             <article class="card1">
-                <h2>This is another section header</h2>
-            </article> <!-- get this upward -->
+                <h2>Why do I love bouldering?</h2>
+                <p>I do a form of bouldering that is indoors, otherwise called indoor climbing. It's <b>great for beginners</b> as you can rent shoes and find the easy climbs, as when indoors the different climbs are all labelled by difficulty, usually with different colours.</p>
+                <p>It's also incredibly <b>social</b>, and I often go with groups of friends or climbing groups which is a lot of fun.</p>
+                <p>Climbing is a sport that uses lots of brain power, since the moves can be highly technical and it can take quite a few tries to complete a climb. I find the <b>problem-solving</b> invigorating.</p>
+            </article>
             </div>
             </section>
             <section>
@@ -65,36 +51,41 @@
             </div><div class="cards2">
                 <article class="card2">
                     <img src="https://tse1.mm.bing.net/th?id=OIP.UWvUfsL9SCSCGC0Qqy_uQQEsEs&pid=Api" alt="Alex Honnold">
-                    <div class="text">
-                      <h3>A free-soloer</h3>
-                      <button><a href="https://en.wikipedia.org/wiki/Alex_Honnold">Alex Honnold</a></button>
+                    <h3>A free-soloer</h3>
+                    <div class="text1" id="1">
                       <p>Alexander Honnold (born August 17, 1985) is an American rock climber best known for his free solo ascents of big walls. Honnold rose to prominence in June 2017 when he became the first person to free solo El Capitan in Yosemite National Park, a feat that sports writer Daniel Duane described as "one of the great athletic feats of any kind, ever." Honnold also holds the record for the fastest ascent of the Yosemite triple crown, an 18-hour, 50-minute link-up of Mount Watkins, The Nose, and the Regular Northwest Face of Half Dome. In 2015, he won a Piolet d'Or for the Moonwalk Traverse in Patagonia with Tommy Caldwell.
                         Honnold is the author (with David Roberts) of the memoir Alone on the Wall (2015) and the subject of the 2018 biographical documentary Free Solo (trailer found <a href="https://www.youtube.com/watch?v=urRVZ4SW7WU">here</a>), which won a BAFTA and an Academy Award.</p>
+                        <p>Click <a href="https://en.wikipedia.org/wiki/Alex_Honnold">here</a> to read more about Alex.</p>
                     </div>
+                    <div class="text1"><button id="11" onclick="toggle(`1`,this.id)">Hide</button></div>
                 </article>
                 <article class="card2">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Janja_Garnbret_2017_%28cropped%29.jpg/330px-Janja_Garnbret_2017_%28cropped%29.jpg" alt="Janja Garnbret">
-                    <div class="text">
-                      <h3>A boulderer</h3>
-                      <button><a href="https://en.wikipedia.org/wiki/Janja_Garnbret">Janja Garnbret</a></button>
+                    <h3>A boulderer</h3>
+                    <div class="text2" id="2">
+                      <!-- <button><a href="https://en.wikipedia.org/wiki/Janja_Garnbret">Janja Garnbret</a></button> -->
                       <p>Janja Garnbret (born March 12, 1999) is a Slovenian rock climber and sport climber who has won multiple lead climbing and bouldering events at climbing competitions. In 2021, she became the first ever female Olympic gold medalist in sport climbing, and is widely regarded as one of the greatest competitive climbers of all time. She is also the world's first-ever female climber to onsight an 8c graded sport climbing route. As of the end of 2022, Garnbret had won the most IFSC gold medals of any competitive climber in history.</p>
+                      <p>Click <a href="https://en.wikipedia.org/wiki/Janja_Garnbret">here</a> to read more about Janja.</p>
                     </div>
+                    <div class="text2"><button id="22" onclick="toggle(`2`,this.id)">Hide</button></div>
                 </article>
                 <article class="card2">
                     <img src="https://tse1.explicit.bing.net/th?id=OIP.noNnYjdlzs_LG2c7tw4LFwHaHa&pid=Api" alt="Tommy Caldwell">
-                    <div class="text">
-                      <h3>A big wall / traditional climber</h3>
-                      <button><a href="https://en.wikipedia.org/wiki/Tommy_Caldwell">Tommy Caldwell</a></button>
+                    <h3>A big wall / traditional climber</h3>
+                    <div class="text3" id="3">
+                      <!-- <button><a href="https://en.wikipedia.org/wiki/Tommy_Caldwell">Tommy Caldwell</a></button> -->
                       <p>Tommy Caldwell (born August 11, 1978) is an American rock climber who has set records in sport climbing, traditional climbing, and in big-wall climbing. Caldwell made the first free ascents of several major routes on El Capitan in Yosemite National Park.
                         He made the first ascents of some of the hardest sport climbing routes in the U.S., including Kryptonite with grade of 5.14c/d, and the world's first 9a+/b  route, Flex Luthor, at the Fortress of Solitude, Colorado in 2003. In January 2015, Caldwell and Kevin Jorgeson completed the first free climb of the Dawn Wall of El Capitan. At the time, their 19-day ascent was considered one of the hardest big wall free ascents in history.
                         In 2015, National Geographic called Caldwell "arguably the best all-around rock climber on the planet", and he is an important figure in the history of the sport.</p>
+                        <p>Click <a href="https://en.wikipedia.org/wiki/Tommy_Caldwell">here</a> to read more about Tommy.</p>
                     </div>
+                    <div class="text3"><button id="33" onclick="toggle(`3`,this.id)">Hide</button></div>
                 </article>
             </section>
             </div>
     </main>
     <footer>
-        <p> Visit my<a href="" target="_blank"> Github </a>for more.</p>
+        <p> Visit my<a href=""> Project Gallery </a>for more.</p>
         <p>Tess Phillips</p>
     </footer>
 </body>
@@ -106,5 +97,16 @@
         time.innerHTML = d.toLocaleTimeString();
     },1000)
 
+    function toggle(elementId,btnid) {
+      const element = document.getElementById(elementId);
+      const btn = document.getElementById(btnid);
+      if (element.style.display === "none") {
+        element.style.display = "block";
+        btn.innerHTML="Hide"
+      } else {
+        element.style.display = "none";
+        btn.innerHTML="Read more"
+      }
+    }
 </script>
 </html>

@@ -49,7 +49,6 @@ html {
 .card2{
   flex: 0 0 350px;
   margin: 10px;
-  border: 1px solid yellow;
   background-color: transparent;
   justify-content: center;
   align-items: center;
@@ -62,16 +61,19 @@ html {
   margin: 10%;
 }
 
-.card2 .text{
-    padding: 0 20px 20px
+.card2 .text1, .card2 .text2, .card2 .text3{
+    padding: 0 20px 0 20px;
+    width:50%;
+    margin:0 20% 0 20% 
 }
 
-.card2 .text > button{
+.card2 .text1 > button,.card2 .text2 > button, .card2 .text3 > button{
     background: rgb(161, 222, 255);
     border: 0;
     color: black;
     padding: 10px;
-    width: 100%;
+    width:60%;
+    margin:0 20% 0 20% 
 }
 
 body {
@@ -131,4 +133,6 @@ h6{
   font-size: 15px;
 }
 
-@media screen and (max-width: 991px) { body { font-size: 12px; } }
+@media screen and (max-width: 991px) and (min-width: 400px) { body { font-size: 12px; } }
+@media screen and (max-width: 400px) { body { font-size: 9px; } }
+
