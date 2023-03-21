@@ -13,13 +13,7 @@ The page is divided into several sections, including:
 "Famous climbers" - a section that includes biographical information and links to documentaries about famous climbers.  
 
 How to use  
-To view the webpage, simply open the HTML file in a web browser. The page is responsive and will adapt to different screen sizes, so it can be viewed on a variety of devices. To navigate to a specific section, click on the corresponding title in the header. For more information about climbing spots in Manchester, refer to the contact information in the footer.
-
-Contributing  
-Contributions to this repository are not currently being accepted.
+To view the webpage, simply open the HTML file in a web browser. The page is responsive and will adapt to different screen sizes, so it can be viewed on a variety of devices. For more information about climbing spots in Manchester, refer to the contact information in the footer.
 
 Credits  
 This project was created by Tess Phillips for the Founders and Coders bootcamp.
-
-Contact  
-If you have any questions or concerns about this repository, please contact Tess Phillips at tess.phillips@me.com.
