@@ -1,6 +1,9 @@
 # FAC1
 Hobby Page - Bouldering  
-This site is an informative page about bouldering and other types of climbing. It contains HTML (for the website), CSS (for the styling of the website) and JavaScript(for the up to date time on the page). Some challenges faced whilst making this was using and combining all these languages since it is my first time using them. I also struggled with getting the boxes to line up and the pictures being of different sizes also not lining up properly but I found appropriate solutions.
+This site is an informative page about bouldering and other types of climbing.  It contains HTML (for the website), CSS (for the styling of the website) and JavaScript(for the up to date time on the page). 
+
+Planning, Building and Debugging
+Some challenges faced whilst making this was using and combining all these languages since it was my first time using them. I also struggled with getting the boxes to line up and the pictures being of different sizes also not lining up properly but I found appropriate solutions.
 
 Table of Contents  
 The page is divided into several sections, including:  
