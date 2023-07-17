@@ -1,6 +1,7 @@
 # FAC1
 Hobby Page - Bouldering  
 This site is an informative page about bouldering and other types of climbing.  It contains HTML (for the website), CSS (for the styling of the website) and JavaScript(for the up to date time on the page). 
+This is also the first page I ever built using HTML, CSS and JS!
 
 Planning, Building and Debugging  
 I planned to create my sections in blocks with a colouring climbing image as the background since I had seen a website with this structure and thought it looked nice and unique. I chose blue and yellow as the theme colours of this page.  
@@ -14,7 +15,7 @@ The page is divided into several sections, including:
 "Famous climbers" - a section that includes biographical information and links to documentaries about famous climbers.  
 
 How to use  
-To view the webpage, simply open the HTML file in a web browser. The page is responsive and will adapt to different screen sizes, so it can be viewed on a variety of devices. For more information about climbing spots in Manchester, refer to the contact information in the footer.
+To view the webpage, simply open the HTML file in a web browser. The page is responsive and will adapt to different screen sizes, so it can be viewed on a variety of devices. For more information about climbing spots in Manchester, refer to the contact information in the footer. It can also be viewed from the GitHub page: https://tess-phillips.github.io/boulderingPage/
 
 Credits  
 This project was created by Tess Phillips for the Founders and Coders bootcamp.
