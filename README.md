@@ -1,4 +1,4 @@
-# FAC1
+# Bouldering Page
 Hobby Page - Bouldering  
 This site is an informative page about bouldering and other types of climbing.  It contains HTML (for the website), CSS (for the styling of the website) and JavaScript(for the up to date time on the page). 
 This is also the first page I ever built using HTML, CSS and JS!
